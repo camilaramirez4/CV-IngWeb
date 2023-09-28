@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.debug {
+  border: 1px solid red;
+}
+
+.rounded-icon {
+  @apply w-[48px] h-[48px] bg-main-yellow rounded-full flex justify-center items-center text-2xl;
+}
+
+.personal-info {
+  @apply flex justify-between;
+}
