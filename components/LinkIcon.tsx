@@ -6,7 +6,7 @@ interface LinkIconProps {
 
 const LinkIcon = ({Icon}:LinkIconProps) => {
     return (
-        <div>
+        <div className='text-4xl'>
             <Icon></Icon>
         </div>
     );

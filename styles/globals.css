@@ -2,14 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+* {
+  font-family: 'Mukta' - sans-serif;
+}
+
 .debug {
   border: 1px solid red;
 }
 
 .rounded-icon {
-  @apply w-[48px] h-[48px] bg-main-yellow rounded-full flex justify-center items-center text-2xl;
+  @apply w-[60px] h-[60px] bg-baby-blue rounded-full flex justify-center items-center text-2xl;
 }
 
 .personal-info {
   @apply flex justify-between;
+}
+
+.left-sidebar-info {
+  @apply w-4/5 flex flex-col px-2 gap-1;
 }

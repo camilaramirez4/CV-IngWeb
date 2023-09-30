@@ -3,18 +3,18 @@ import { GrLinkedinOption, GrGithub } from "react-icons/gr";
 
 const RightSidebar = () => {
     return (
-        <aside className="debug w-[120px] flex justify-center">
+        <aside className="w-1/12 h-screen bg-white flex justify-center">
             <div className="py-16">
-                <span className="font-bold text-xl">
+                <span className="font-bold text-2xl">
                     Links
                 </span>
                 <div className="py-4">
-                    <div className="rounded-icon mb-4">
+                    <a href="https://www.linkedin.com/in/camila-ram%C3%ADrez-a7429b248/" className="rounded-icon mb-4">
                         <LinkIcon Icon={GrLinkedinOption}/>
-                    </div>
-                    <div className="rounded-icon">
+                    </a>
+                    <a href="https://github.com/camilaramirez4" className="rounded-icon mb-4">
                         <LinkIcon Icon={GrGithub}/>
-                    </div>
+                    </a>
                 </div>
             </div>
         </aside>
