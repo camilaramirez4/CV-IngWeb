@@ -10,7 +10,7 @@ const ExtraSkill = ({label}:ExtraSkillProps) => {
             <div className='text-lg text-baby-blue'>
                 <PiIntersectSquareBold/>
             </div>
-            <span>{label}</span>
+            <span className='text-secondary-text'>{label}</span>
         </div>
     );
 };

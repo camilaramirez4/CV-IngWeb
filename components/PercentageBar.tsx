@@ -6,7 +6,7 @@ interface PercentageBarProps {
 const PercentageBar = ({label, percentage}:PercentageBarProps) => {
     return (
         <div className="flex flex-col">
-            <div className="flex justify-between">
+            <div className="flex justify-between text-secondary-text">
                 <span>{label}</span>
                 <span>{percentage}%</span>
             </div>
