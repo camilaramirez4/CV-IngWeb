@@ -22,5 +22,5 @@
 }
 
 .left-sidebar-info {
-  @apply w-4/5 flex flex-col px-2 gap-1;
+  @apply w-full flex flex-col gap-1;
 }

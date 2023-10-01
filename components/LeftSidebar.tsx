@@ -5,10 +5,10 @@ import { ExtraSkill } from './ExtraSkill';
 
 const LeftSidebar = () => {
     return (
-        <aside className="h-screen w-3/12 bg-white flex flex-col items-center text-sm">
+        <aside className="h-screen w-3/12 bg-white flex flex-col items-center text-sm fixed top-0 left-0 px-14">
             <div className="flex flex-col items-center mt-7 mb-3 gap-2">
                 <div className="flex flex-col relative">
-                    <Image src="/images/ProfileSidebar.jpg" alt="Profile photo" width={150} height={150} 
+                    <Image src="/images/ProfileSidebar.jpg" alt="Profile photo" width={140} height={140} 
                     className='rounded-full border-2 border-medium-gray'/>
                     <span className='absolute rounded-full w-[16px] h-[16px] bg-available-green right-2 bottom-4'></span>
                 </div>

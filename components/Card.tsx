@@ -8,7 +8,7 @@ interface CardProps {
 
 const Card = ({Icon, title, description}:CardProps) => {
     return (
-        <div className="bg-white p-4 text-center w-[320px] h-[220px] flex flex-col items-center justify-center">
+        <div className="bg-white p-4 text-center w-[305px] h-[205px] flex flex-col items-center justify-center">
             <div className=" text-baby-blue text-8xl">
                 <Icon/>
             </div>

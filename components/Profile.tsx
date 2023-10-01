@@ -4,7 +4,7 @@ const Profile = () => {
     return (
         <div className="w-full h-[467px] flex flex-col bg-white relative mb-8">
             <div className='absolute right-0 bottom-0'>
-                <Image src="/images/ProfileMain.jpg" alt="Profile photo" width={320} height={520}/>
+                <Image src="/images/ProfileMain.jpg" alt="Profile photo" width={300} height={500}/>
             </div>
             <div className='font-bold flex flex-col text-5xl px-14 mt-16 mb-4'>
                 <span className='mb-4'>I&apos;m Camila Ramírez</span>
