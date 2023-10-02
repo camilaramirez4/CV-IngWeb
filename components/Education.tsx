@@ -4,7 +4,7 @@ import { Studies } from "./Studies";
 
 const Education = () => {
     return (
-        <div className="flex flex-col w-full h-[800px] mb-8 items-center">
+        <div className="flex flex-col w-full mb-8 items-center">
             <span className="text-3xl font-bold">Education</span>
             <p className=" text-center m-6 w-2/5 text-secondary-text">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
