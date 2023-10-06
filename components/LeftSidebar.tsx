@@ -5,7 +5,7 @@ import { ExtraSkill } from './ExtraSkill';
 
 const LeftSidebar = () => {
     return (
-        <aside className="h-screen w-3/12 bg-white flex flex-col items-center text-sm fixed top-0 left-0 px-14">
+        <aside className="h-screen w-3/12 bg-white flex flex-col items-center text-sm sticky top-0 left-0 px-14">
             <div className="flex flex-col items-center mt-7 mb-3 gap-2">
                 <div className="flex flex-col relative">
                     <Image src="/images/ProfileSidebar.jpg" alt="Profile photo" width={140} height={140} 

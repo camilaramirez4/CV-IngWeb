@@ -10,7 +10,7 @@ interface ProjectProps {
 
 const Project = ({imagePath, title, description, buttonContent}: ProjectProps) => {
     return (
-        <div className='h-[474px] w-[310px] bg-white flex flex-col'>
+        <div className='h-[474px] min-w-[310px] bg-white flex flex-col'>
             <Image src={imagePath} alt="Project Photo" width={310} height={300}/>
             <div className='flex flex-col items-center gap-2 px-6 py-4'>
                 <span className='font-semibold text-base'>

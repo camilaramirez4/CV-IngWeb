@@ -1,6 +1,16 @@
 import Image from 'next/image';
+import { useState } from 'react';
+import { Button } from './Button';
+import { ButtonDialog } from './Dialogs/ButtonDialog';
 
 const Profile = () => {
+    const [dialogOpen, setDialogOpen] = useState<boolean>(false);
+
+    const handleButtonClick = () => {
+        console.log("Hice click en el boton");
+        setDialogOpen(true);
+    };
+
     return (
         <div className="w-full h-[467px] flex flex-col bg-white relative mb-8">
             <div className='absolute right-0 bottom-0'>
@@ -15,16 +25,14 @@ const Profile = () => {
             </div>
             <div className='w-7/12 px-14 flex flex-col '>
                 <p className='text-secondary-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Et, volutpat feugiat placerat lobortis.
-                    Natoque rutrum semper sed suspendisse nunc lectus.
+                Currently, I am studying systems engineering at the University of Antioquia, 
+                I am in my eighth semester and I have been working as a developer for nine months.
                 </p>
             </div>
             <div className='my-8 px-14'>
-                <button className='bg-baby-blue rounded-md h-14 w-40 font-semibold hover:cursor-pointer hover:bg-medium-blue'>
-                    HIRE ME!
-                </button>
+                <Button text="HIRE ME!" handleClick={handleButtonClick}/>
             </div>
+            <ButtonDialog open={dialogOpen} setOpen={setDialogOpen}/>
         </div>
     );
 };

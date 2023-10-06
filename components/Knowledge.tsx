@@ -6,10 +6,9 @@ const Knowledge = () => {
         <div className="flex flex-col w-full mb-8 items-center">
             <span className="text-3xl font-bold">My Knowledge</span>
             <p className=" text-center m-6 w-2/5 text-secondary-text">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
-                Velit officia consequat duis enim velit mollit. lorem ipsum
+                These are the most valuable knowledge that I have acquired thanks to my studies and my experience in the work field.
             </p>
-            <div className="grid grid-cols-3 gap-4 w-full">
+            <div className="grid grid-cols-3 gap-4 w-full justify-between">
                 <Card Icon={MdOutlineDeveloperMode} title="Development" description="Backend and Frontend"/>
                 <Card Icon={MdOutlineDeveloperMode} title="Development" description="Backend and Frontend"/>
                 <Card Icon={MdOutlineDeveloperMode} title="Development" description="Backend and Frontend"/>

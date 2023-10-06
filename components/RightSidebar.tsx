@@ -3,7 +3,7 @@ import { GrLinkedinOption, GrGithub } from "react-icons/gr";
 
 const RightSidebar = () => {
     return (
-        <aside className="w-1/12 h-screen bg-white flex justify-center fixed top-0 right-0">
+        <aside className="w-1/12 h-screen bg-white flex justify-center sticky top-0 right-0">
             <div className="py-16">
                 <span className="font-bold text-2xl">
                     Links

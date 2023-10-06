@@ -9,7 +9,7 @@ const Index = () => {
   return (
     <div className="flex w-full h-full bg-light-gray gap-5">
       <LeftSidebar/>
-      <main className="h-full w-8/12 ml-[410px] mr-[160px] text-sm">
+      <main className="flex-grow h-full w-8/12 text-sm">
         <Profile/>
         <Knowledge/>
         <Education/>
