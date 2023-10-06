@@ -1,14 +1,22 @@
 import Image from 'next/image';
 import { MdKeyboardArrowRight } from 'react-icons/md';
+import { Button } from './Button';
+import { useState } from 'react';
+import { ButtonDialog } from './Dialogs/ButtonDialog';
 
 interface ProjectProps {
     imagePath: string;
     title: String;
     description: String;
-    buttonContent: String;
 }
 
-const Project = ({imagePath, title, description, buttonContent}: ProjectProps) => {
+const Project = ({imagePath, title, description}: ProjectProps) => {
+    const [dialogOpen, setDialogOpen] = useState<boolean>(false);
+
+    const handleButtonClick = () => {
+        console.log("Hice click en el boton");
+        setDialogOpen(true);
+    };
     return (
         <div className='h-[474px] min-w-[310px] bg-white flex flex-col'>
             <Image src={imagePath} alt="Project Photo" width={310} height={300}/>
@@ -21,10 +29,11 @@ const Project = ({imagePath, title, description, buttonContent}: ProjectProps) =
                 </p>
             </div>
             <div className='px-6'>
-                <button className='text-baby-blue font-semibold flex items-center justify-center gap-2'>
-                    Learn More
+                <div className='flex items-center justify-center gap-2 text-baby-blue'>
+                    <Button text="Learn More" type='secondary' handleClick={handleButtonClick}/>
                     <MdKeyboardArrowRight/>
-                </button>
+                </div>
+                <ButtonDialog open={dialogOpen} setOpen={setDialogOpen}/>
             </div>
         </div>
     );

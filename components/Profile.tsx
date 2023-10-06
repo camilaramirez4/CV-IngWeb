@@ -30,7 +30,7 @@ const Profile = () => {
                 </p>
             </div>
             <div className='my-8 px-14'>
-                <Button text="HIRE ME!" handleClick={handleButtonClick}/>
+                <Button text="HIRE ME!" type='primary' handleClick={handleButtonClick}/>
             </div>
             <ButtonDialog open={dialogOpen} setOpen={setDialogOpen}/>
         </div>

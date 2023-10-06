@@ -13,25 +13,21 @@ const Portfolio = () => {
                     imagePath="/images/ProfileSidebar.jpg" 
                     title="How to make web tempates" 
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna " 
-                    buttonContent=""
                 />
                 <Project 
                     imagePath="/images/ProfileSidebar.jpg" 
                     title="How to make web tempates" 
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna " 
-                    buttonContent=""
                 />
                 <Project 
                     imagePath="/images/ProfileSidebar.jpg" 
                     title="How to make web tempates" 
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna " 
-                    buttonContent=""
                 />
                 <Project 
                     imagePath="/images/ProfileSidebar.jpg" 
                     title="How to make web tempates" 
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna " 
-                    buttonContent=""
+                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna "
                 />
             </div>
         </div>

@@ -11,12 +11,12 @@ const ButtonDialog = ({ open, setOpen }:ButtonDialogProps) => {
     return (
         <Dialog open={open}>
             <DialogTitle>
-                <span>Titulo del dialogo</span>
+                <span className='font-semibold'>Titulo del dialogo</span>
             </DialogTitle>
             <DialogContent>
-                <div>
+                <div className='flex flex-col gap-6'>
                     <span>Contenido del dialogo</span>
-                    <Button text="Close" handleClick={() => {
+                    <Button text="Close" type='secondary' handleClick={() => {
                         setOpen(false);
                     }}/>
                 </div>
