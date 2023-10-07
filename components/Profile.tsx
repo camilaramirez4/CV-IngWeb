@@ -7,7 +7,6 @@ const Profile = () => {
     const [dialogOpen, setDialogOpen] = useState<boolean>(false);
 
     const handleButtonClick = () => {
-        console.log("Hice click en el boton");
         setDialogOpen(true);
     };
 
@@ -25,14 +24,14 @@ const Profile = () => {
             </div>
             <div className='w-7/12 px-14 flex flex-col '>
                 <p className='text-secondary-text'>
-                Currently, I am studying systems engineering at the University of Antioquia, 
-                I am in my eighth semester and I have been working as a developer for nine months.
+                I study at the University of Antioquia, I am currently in my eighth semester 
+                and these are some of the knowledge and skills that I have acquired throughout my process...
                 </p>
             </div>
             <div className='my-8 px-14'>
                 <Button text="HIRE ME!" type='primary' handleClick={handleButtonClick}/>
             </div>
-            <ButtonDialog open={dialogOpen} setOpen={setDialogOpen}/>
+            <ButtonDialog title="Holi" description="Holi" url="https://google.com"  open={dialogOpen} setOpen={setDialogOpen}/>
         </div>
     );
 };
