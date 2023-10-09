@@ -2,24 +2,25 @@ import { Dialog, DialogTitle, DialogContent } from '@mui/material';
 import { Button } from '../Button';
 import { Dispatch, SetStateAction } from 'react';
 
-interface ButtonDialogProps {
+interface ProjectDialogProps {
     title: String;
     description: String;
     url: string;
+    urlText: String;
     open: boolean;
     setOpen: Dispatch<SetStateAction<boolean>>;
 }
 
-const ButtonDialog = ({ title, description, url, open, setOpen }:ButtonDialogProps) => {
+const ProjectDialog = ({ title, description, url, urlText, open, setOpen }:ProjectDialogProps) => {
     return (
-        <Dialog open={open}>
+        <Dialog open={open} className='text-center'>
             <DialogTitle>
                 <span className='font-semibold'>{title}</span>
             </DialogTitle>
             <DialogContent>
                 <div className='flex flex-col gap-6'>
                     <span>{description}</span>
-                    <a href={url}>More details</a>
+                    <a href={url} className='underline'>{urlText}</a>
                     <Button text="Close" type='secondary' handleClick={() => {
                         setOpen(false);
                     }}/>
@@ -29,4 +30,4 @@ const ButtonDialog = ({ title, description, url, open, setOpen }:ButtonDialogPro
     );
 };
 
-export { ButtonDialog };
+export { ProjectDialog };

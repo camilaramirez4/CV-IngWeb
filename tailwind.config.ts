@@ -15,6 +15,8 @@ const config: Config = {
       },
       colors: {
         'baby-blue': '#b5c1ff',
+        'light-blue': '#dee3ff',
+        'back-blue': '#eef1ff',
         'medium-blue': '#a1b1ff',
         'main-text': '#2b2b2b',
         'secondary-text': '#767676',

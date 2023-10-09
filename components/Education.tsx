@@ -15,19 +15,15 @@ const Education = () => {
                     institution="I.E Benedikta Zur Nieden" 
                     date="Jan 2008 - Nov 2018" 
                     title="Primary School & High School" 
-                    description="During my primary and secondary education, I developed a strong foundation in subjects 
-                    such as mathematics, science, literature and arts. I stood out for having a strong sense of responsibility. 
-                    This commitment to excellence translated into ranking at the top of my class in terms of academic performance, 
-                    reflecting my dedication to achieving outstanding  results."
+                    description="During my primary and secondary education I developed hard skills in fields such as mathematics, 
+                    science and literature, as well as soft skills such as responsibility, commitment and dedication."
                 />
                 <Separator/>
                 <Studies 
                     institution="CAMIL" 
                     date="Jan 2017 - Jun 2018" 
                     title="English level B2" 
-                    description="My passion for learning new languages led me to undertake an English course during my 10th and 
-                    11th-grade years of secondary education. Over the course of a year and a half, I progressed from an English 
-                    proficiency level of A1 to B2. This intensive learning experience greatly enhanced my language skills, allowing 
+                    description="This intensive learning experience greatly enhanced my language skills, allowing 
                     me to communicate effectively in English and expanding my horizons by gaining proficiency in a second language."
                 />
                 <Separator/>
@@ -35,9 +31,7 @@ const Education = () => {
                     institution="University of Antioquia" 
                     date="Feb 2019 - Ongoing" 
                     title="Systems Engineer" 
-                    description="I am currently pursuing a Bachelor's degree in Systems Engineering, and I am currently in my eighth 
-                    semester. Throughout my academic journey, I have acquired a comprehensive understanding of various aspects of 
-                    systems engineering, this program has provided me with a solid foundation in problem-solving, critical thinking, 
+                    description="This program has provided me with a solid foundation in problem-solving, critical thinking, 
                     and project management within the field of information technology. I am excited to continue expanding my knowledge 
                     and skills in this dynamic and ever-evolving field."
                 />

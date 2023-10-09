@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { useState } from 'react';
 import { Button } from './Button';
-import { ButtonDialog } from './Dialogs/ButtonDialog';
+import { ProfileDialog } from './Dialogs/ProfileDialog';
 
 const Profile = () => {
     const [dialogOpen, setDialogOpen] = useState<boolean>(false);
@@ -29,9 +29,9 @@ const Profile = () => {
                 </p>
             </div>
             <div className='my-8 px-14'>
-                <Button text="HIRE ME!" type='primary' handleClick={handleButtonClick}/>
+                <Button text="EXPERIENCE" type='primary' handleClick={handleButtonClick}/>
             </div>
-            <ButtonDialog title="Holi" description="Holi" url="https://google.com"  open={dialogOpen} setOpen={setDialogOpen}/>
+            <ProfileDialog title="WORK EXPERIENCE" url="https://wa.me/573008990195" urlText="Contact me!"  open={dialogOpen} setOpen={setDialogOpen}/>
         </div>
     );
 };
