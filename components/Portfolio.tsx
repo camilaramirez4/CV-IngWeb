@@ -1,8 +1,4 @@
 import { Project } from "./Project";
-import { useState } from 'react';
-import { MdKeyboardArrowRight } from 'react-icons/md';
-import { Button } from './Button';
-import { ProyectDialog } from './Dialogs/ProyectDialog';
 
 const Portfolio = () => {
 
