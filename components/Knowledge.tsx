@@ -11,8 +11,8 @@ const Knowledge = () => {
                 <Card imagePath="/images/WebDevelopment.png" title="Web development" description="Web application development using HTML, CSS, TypeScript."/>
                 <Card imagePath="/images/MobileDevelopment.png" title="Mobile development " description="Mobile application development using Kotlin, Flutter."/>
                 <Card imagePath="/images/Database.png" title="Databases management" description="Use of database managers such as Oracle, MySQL, PostgreSQL."/>
-                <Card imagePath="/images/Github.png" title="Git and GitHub" description="Collaboration on projects, organization and version control."/>
                 <Card imagePath="/images/Devops.png" title="DevOps" description="Automation for continuous high-quality delivery."/>
+                <Card imagePath="/images/Github.png" title="Git and GitHub" description="Collaboration on projects, organization and version control."/>
                 <Card imagePath="/images/Agile.png" title="Agile methodologies" description="Application of techniques in order to have a more efficient project."/>
             </div>
         </div>
